@@ -13,10 +13,6 @@
 # limitations under the License.
 
 
-# EGL config
-PRODUCT_COPY_FILES += \
-    device/samsung/qcom-common/configs/egl.cfg:system/lib/egl/egl.cfg
-
 # Media config
 PRODUCT_COPY_FILES += \
 	device/samsung/qcom-common/configs/media_codecs.xml:system/etc/media_codecs.xml
@@ -35,8 +31,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.egl.hw=1 \
     debug.composition.type=dyn \
     persist.hwc.mdpcomp.enable=true \
-    debug.mdpcomp.logs=0 \
-    debug.egl.recordable.rgba8888=1
+    debug.mdpcomp.logs=0
 
 ifeq ($(TARGET_BOARD_PLATFORM),msm8660)
     PRODUCT_PROPERTY_OVERRIDES += debug.mdpcomp.maxlayer=3
