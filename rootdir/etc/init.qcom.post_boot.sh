@@ -125,8 +125,8 @@ case "$target" in
          echo 4 > /sys/devices/system/cpu/cpufreq/ondemand/sampling_down_factor
          echo 10 > /sys/devices/system/cpu/cpufreq/ondemand/down_differential
          echo 70 > /sys/devices/system/cpu/cpufreq/ondemand/up_threshold_multi_core
-         echo 918000 > /sys/devices/system/cpu/cpufreq/ondemand/optimal_freq
-         echo 1026000 > /sys/devices/system/cpu/cpufreq/ondemand/sync_freq
+         echo 1026000 > /sys/devices/system/cpu/cpufreq/ondemand/optimal_freq
+         echo 810000 > /sys/devices/system/cpu/cpufreq/ondemand/sync_freq
          echo 80 > /sys/devices/system/cpu/cpufreq/ondemand/up_threshold_any_cpu_load
          chown system /sys/devices/system/cpu/cpufreq/ondemand/sampling_rate
          chown system /sys/devices/system/cpu/cpufreq/ondemand/sampling_down_factor
