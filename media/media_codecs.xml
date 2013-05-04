@@ -64,8 +64,7 @@
         <MediaCodec name="OMX.qcom.audio.decoder.wma10Pro" type="audio/x-ms-wma" >
             <Quirk name="requires-global-flush" />
         </MediaCodec>
-        <MediaCodec name="OMX.qcom.audio.decoder.mp3" type="audio/mpeg" >
-            <Quirk name="requires-global-flush" />
+        <MediaCodec name="OMX.qcom.audio.decoder.amrwbplus" type="audio/amr-wb-plus" >
         </MediaCodec>
         <MediaCodec name="OMX.qcom.audio.decoder.amrwbplus" type="audio/amr-wb-plus" >
         </MediaCodec>
